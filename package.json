@@ -1,0 +1,39 @@
+{
+	"name": "moonapp",
+	"version": "0.0.0",
+	"private": false,
+	"author": {"name": "HaxSam", "email": "haysam2002@gamil.com"},
+	"repository": {"url": "https://github.com/HaxSam/MoonjsTemplate", "type": "git"},
+	"scripts": {
+		"dev": "NODE_ENV=\"development\" webpack serve --config webpack.config.js",
+		"build": "NODE_ENV=\"production\" webpack --config webpack.config.js"
+	},
+	"dependencies": {
+		"moon": "latest",
+		"tailwindcss": "^1.9.6"
+	},
+	"devDependencies": {
+		"@babel/core": "latest",
+		"@babel/preset-env": "latest",
+		"autoprefixer": "^9.0.0",
+		"babel-loader": "latest",
+		"clean-webpack-plugin": "latest",
+		"cross-env": "^7.0.2",
+		"css-loader": "latest",
+		"file-loader": "latest",
+		"html-webpack-plugin": "latest",
+		"mini-css-extract-plugin": "latest",
+		"moon-compiler": "latest",
+		"moon-loader": "latest",
+		"optimize-css-assets-webpack-plugin": "latest",
+		"postcss-loader": "^4.0.4",
+		"purgecss-webpack-plugin": "latest",
+		"sass": "^1.29.0",
+		"sass-loader": "^10.1.0",
+		"style-loader": "^2.0.0",
+		"terser-webpack-plugin": "latest",
+		"webpack": "^5.4.0",
+		"webpack-cli": "latest",
+		"webpack-dev-server": "latest"
+	}
+}
